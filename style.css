@@ -1,0 +1,40 @@
+body{
+    margin: 0px;
+}
+
+.anav{
+    font-family: "Arvo", serif;
+    color: white;
+    text-decoration: none;
+}
+
+.ulnap{
+    display: flex;
+    list-style-type: none;
+}
+
+nav{
+    background-color: green;
+    padding: 20px;
+}
+
+.linav{
+    padding-right: 30px;
+}
+
+.biografia{
+    font-family: "Pridi", serif;
+}
+
+img{
+    width: 150px;
+    height: auto;
+}
+
+.biografia{
+    padding: 2px,2px,2px,2px;
+}
+
+.educacion{
+    font-family: "Pridi", serif;
+}
