@@ -1,0 +1,51 @@
+@keyframes fadeIn {
+    0% {
+        opacity: 0; 
+    }
+    100% {
+        opacity: 1; 
+    }
+}
+
+.fade-in {
+    animation: fadeIn 1.5s ease-out forwards;
+}
+
+.nav-item.dropdown .dropdown-menu {
+    display: none;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.carousel-container{
+  margin: 0 auto;
+  overflow: hidden;
+  height: 350px;
+  background-color: #23376D;
+}
+ 
+.carousel-inner-partners {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    margin-top: 100px;
+  }
+ 
+  .carousel-images-partners {
+    display: flex;
+    gap: 10px;
+  }
+ 
+  .carousel-item-partners img {
+    width: 160px;
+    height: 89px;
+  }
+ 
+.carousel-control-prev-partners {
+    left: 10px;
+  }
+ 
+.carousel-control-next-partners {
+    right: 10px;
+  }
