@@ -30,29 +30,29 @@
 .carousel-inner-partners {
   display: flex;
   transition: transform 0.5s ease-in-out;
-  margin-top: 100px;
+  margin-top: 75px;
 }
 
 .carousel-images-partners {
   display: flex;
-  gap: 350px;
+  gap: 315px;
 }
 
 .carousel-item-partners img {
-  width: 160px;
-  height: 89px;
+  width: 140px;
+  height: 69px;
 }
 
 .carousel-control-prev-partners {
-  left: 10px;
+  left: 8px;
 }
 
 .carousel-control-next-partners {
-  right: 10px;
+  right: 8px;
 }
 
 .image-container img:hover {
-  opacity: 0.7;
+  opacity: 0.5;
 }
 
 .image-container a:hover {
@@ -67,3 +67,8 @@
 .correos:hover {
     text-decoration: underline;
 }
+
+.nav-item {
+  list-style: none;
+}
+
